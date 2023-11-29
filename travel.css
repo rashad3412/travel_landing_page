@@ -403,3 +403,72 @@ footer {
 .word-adj {
   text-align: center;
 }
+
+.box-element {
+  display: flex;
+  justify-content: center;
+}
+
+.box-container2 {
+  color: white;
+  display: flex;
+  width: 750px;
+  height: 550px;
+  justify-content: center;
+  background-color: rgb(12, 178, 178);
+  border: solid rgb(247, 175, 41) 1px;
+  border-radius: 20px;
+}
+
+.name-input {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+.label-input {
+  margin: 5px;
+}
+
+input {
+  display: flex;
+  margin: 10px;
+}
+
+.comment-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+}
+
+.text-area {
+  width: 350px;
+  height: 200px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 14px;
+  width: 75px;
+  color: white;
+  background-color: rgb(247, 175, 41);
+  border: white solid 1px;
+  border-radius: 10px;
+}
+
+.contact-footer {
+  margin-top: 10px;
+}
