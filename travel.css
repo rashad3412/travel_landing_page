@@ -1,3 +1,5 @@
+/* The Beginning of Travel html page..... */
+
 h1 {
   font-size: 25px;
   display: flex;
@@ -18,14 +20,24 @@ h1 {
   margin: 10px;
   padding: 10px;
 }
-.fig2 {
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  flex: 1;
+
+.paragraph-div {
+  position: relative;
+  float: left;
+  text-align: center;
+  font-size: 25px;
 }
 
-.first-prop {
+.paragraph-text {
+  text-align: center;
+  margin: 10px;
+}
+
+.text-adj {
+  margin-top: 20px;
+}
+
+.nav-link-prop {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -51,33 +63,17 @@ a {
   color: white;
 }
 
-.links {
+.img-prop {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
 }
 
-.p-div {
-  position: relative;
-  float: left;
-  text-align: center;
-  font-size: 25px;
-}
-
 .img-align {
   padding: 10px;
   margin: 0px auto;
   float: left;
-}
-
-.p-text {
-  text-align: center;
-  margin: 10px;
-}
-
-.text-adj2 {
-  margin-top: 20px;
 }
 
 footer {
@@ -88,7 +84,7 @@ footer {
   justify-content: center;
   border-radius: 10px;
 }
-.nav2 {
+.footer-contacts {
   text-align: center;
   width: 175px;
   color: white;
@@ -109,7 +105,7 @@ footer {
   }
 }
 @media (max-width: 1321px) {
-  .links {
+  .img-prop {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -124,7 +120,7 @@ footer {
   }
 }
 @media (max-width: 731px) {
-  .nav2 {
+  .footer-contacts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -133,7 +129,7 @@ footer {
 }
 
 @media (max-width: 586px) {
-  .res {
+  .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +150,11 @@ footer {
   }
 }
 
-.link-adj {
+/* The end of Travel html page..... */
+
+/* The Beginning of Home html page..... */
+
+.travel-tag-link-adj {
   display: flex;
   background-color: rgb(247, 175, 41);
   justify-content: center;
@@ -164,7 +164,14 @@ footer {
   border-radius: 10px;
 }
 
-.camping {
+.set-home-section {
+  display: flex;
+  margin: 0px auto;
+  /* border: solid black 2px; */
+  max-width: 1190px;
+}
+
+.set-home-div-section {
   display: flex;
   justify-content: center;
   margin: 8px;
@@ -192,11 +199,11 @@ footer {
   border-radius: 15px;
 }
 
-.camping-text {
+.card-text {
   font-size: 19px;
 }
 
-.link-adj2 {
+.detail-link {
   display: flex;
   font-size: 15px;
   background-color: rgb(247, 175, 41);
@@ -206,53 +213,29 @@ footer {
   border: solid white 1px;
   border-radius: 10px;
 }
-.set-body {
+
+.set-div-more-fun {
   display: flex;
-  margin: 0px auto;
-  /* border: solid black 2px; */
-  max-width: 1190px;
+  justify-content: center;
 }
 
-@media (max-width: 1182px) {
-  .set-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .camping {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.des {
-  border-radius: 10px;
-}
-
-.content {
+.more-fun-content {
   display: flex;
   background-color: rgb(12, 178, 178);
   border: solid rgb(247, 175, 41) 1px;
   border-radius: 10px;
   justify-content: left;
-
   padding: 10px;
   width: 900px;
 }
 
-.set-body2 {
-  display: flex;
-  justify-content: center;
-}
-
-.float-text2 {
+.night-life-float-text {
   color: white;
   font-size: 25px;
   text-align: center;
 }
 
-.float-img2 {
+.night-life-img {
   border-radius: 10px;
 }
 
@@ -261,23 +244,11 @@ footer {
   margin: 0px auto;
 }
 
-.center {
+.night-card-center {
   display: flex;
   align-items: center;
   padding-left: 10px;
 }
-
-/* .set-color {
-  display: flex;
-  align-items: center;
-  text-indent: 10px;
-  border: solid white 1px;
-  background-color: rgb(247, 175, 41);
-  border-radius: 10px;
-  margin: 0px auto;
-  padding: 5px;
-  height: 65px;
-} */
 
 .details-div {
   display: flex;
@@ -285,7 +256,7 @@ footer {
   margin-top: 25px;
 }
 
-.link-adj3 {
+.night-details-link {
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -297,7 +268,7 @@ footer {
   border-radius: 10px;
 }
 
-.footer2 {
+.home-page-footer {
   background-color: rgb(12, 178, 178);
   height: 150px;
   display: flex;
@@ -307,7 +278,24 @@ footer {
   border-radius: 10px;
 }
 
-.split-1 {
+@media (max-width: 1182px) {
+  .set-home-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .set-home-divs-section {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* The end of Home html page..... */
+
+/* The Beginning of About html page..... */
+
+.about-section-adj {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -319,10 +307,10 @@ footer {
   /* border: solid black 2px; */
 }
 
-.split-2 {
+.about-section-div-adj-1 {
   display: flex;
 }
-.split-3 {
+.about-section-div-adj-2 {
   display: flex;
   width: 350px;
   flex-direction: column;
@@ -332,33 +320,45 @@ footer {
   color: white;
 }
 
-.split-4 {
+.about-section-div-adj-3 {
   display: flex;
   width: 450px;
   flex-direction: column;
   /* border: solid black 2px; */
 }
 
-.new-color {
+.our-story-color-adj {
   background-color: rgb(247, 175, 41);
   width: 320px;
 }
 
-.new-row {
+.card-inside-text-adj {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.inside-card-adj {
   display: flex;
   justify-content: center;
 }
 
-.pic-about {
+.img-about-div-adj {
   display: flex;
   justify-content: center;
 }
-.pic-about2 {
+
+.img-about-adj {
   border-radius: 10px;
 }
 
+.our-future-text-adj {
+  text-align: center;
+}
+
 @media (max-width: 938px) {
-  .split-1 {
+  .about-section-adj {
     display: flex;
     margin-top: 5px;
     gap: 1.5rem;
@@ -367,49 +367,42 @@ footer {
 }
 
 @media (max-width: 908px) {
-  .split-1 {
+  .about-section-adj {
     display: flex;
     align-items: center;
     width: 750px;
     height: 695px;
   }
 
-  .split-3 {
+  .about-section-div-adj-2 {
     width: 350px;
     height: 250px;
   }
 }
 
 @media (max-width: 760px) {
-  .split-1 {
+  .about-section-adj {
     display: flex;
     width: 500px;
     justify-content: center;
   }
 
-  .split-3 {
+  .about-section-div-adj-2 {
     width: 350px;
     height: 250px;
   }
 }
 
-.word-adj1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  text-align: center;
-}
+/* The end of About html page..... */
 
-.word-adj {
-  text-align: center;
-}
+/* The beginning of Contact html page..... */
 
-.box-element {
+.contact-section-adj {
   display: flex;
   justify-content: center;
 }
 
-.box-container2 {
+.contact-div-adj {
   color: white;
   display: flex;
   width: 750px;
@@ -420,15 +413,11 @@ footer {
   border-radius: 20px;
 }
 
-.name-input {
+.contact-name-input {
   display: flex;
   justify-content: center;
   padding: 10px;
   margin: 50px;
-}
-
-.label-input {
-  margin: 5px;
 }
 
 input {
@@ -442,7 +431,7 @@ input {
   margin-top: 10px;
 }
 
-.comment {
+.comment-label {
   display: flex;
   justify-content: center;
 }
@@ -452,7 +441,7 @@ input {
   height: 200px;
 }
 
-.submit {
+.submit-div {
   display: flex;
   justify-content: center;
 }
@@ -472,3 +461,5 @@ input {
 .contact-footer {
   margin-top: 10px;
 }
+
+/* The end of Contact html page..... */
